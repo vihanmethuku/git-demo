@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Optional: add text shadow here if desired */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background-color: rgb(0, 255, 0); /* Fixed incorrect rgba syntax */
+}
+
+img {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  border-radius: 15px;
+}
+h2{
+  color:deepskyblue;
+  text-shadow:10px 2px 4px rgb(18, 183, 238);
+}
+h1{
+  div {
+  display: flex;
+  flex-direction: end;
+}
+}
